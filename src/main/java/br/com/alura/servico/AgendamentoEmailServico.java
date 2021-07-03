@@ -18,8 +18,18 @@ public class AgendamentoEmailServico {
 		return dao.listar();
 	}
 	
+	public List<AgendamentoEmail> listarPorNaoAngedado() { 
+		return dao.listaPorNaoAngedando();
+	}
+	
 	public void inserir(AgendamentoEmail agendametnoEmail) {
 		agendametnoEmail.setAgendado(false);
 		dao.inserir(agendametnoEmail);		
 	}
+	
+	public void alterar(AgendamentoEmail agendametnoEmail) {
+		agendametnoEmail.setAgendado(true);
+		dao.alterar(agendametnoEmail);
+	}
+	
 }
