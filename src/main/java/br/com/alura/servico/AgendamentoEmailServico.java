@@ -14,7 +14,12 @@ public class AgendamentoEmailServico {
 	@Inject
 	private AgendamentoEmailDAO dao;
 	
-	public List<AgendamentoEmail> listar() {
+	public List<AgendamentoEmail> listar() { 
 		return dao.listar();
+	}
+	
+	public void inserir(AgendamentoEmail agendametnoEmail) {
+		agendametnoEmail.setAgendado(false);
+		dao.inserir(agendametnoEmail);		
 	}
 }

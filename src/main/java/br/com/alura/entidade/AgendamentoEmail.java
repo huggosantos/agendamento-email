@@ -17,6 +17,16 @@ public class AgendamentoEmail {
 	private String email;
 	private String assunto;
 	private String mensagem;
+	private boolean agendado;
+
+	
+	public boolean isAgendado() {
+		return agendado;
+	}
+
+	public void setAgendado(boolean agendado) {
+		this.agendado = agendado;
+	}
 
 	public String getEmail() {
 		return email;

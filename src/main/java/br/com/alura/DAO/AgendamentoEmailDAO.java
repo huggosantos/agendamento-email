@@ -20,5 +20,9 @@ public class AgendamentoEmailDAO {
 				AgendamentoEmail.class).getResultList();
 
 	}
+	
+	public void inserir(AgendamentoEmail agendamentoEmail) {
+		entityManager.persist(agendamentoEmail);		
+	}
 
 }
