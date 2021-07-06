@@ -1,4 +1,4 @@
-package br.com.alura.controller;
+package br.com.agendamentoemail.controller;
 
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
@@ -9,8 +9,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import br.com.alura.entidade.AgendamentoEmail;
-import br.com.alura.servico.AgendamentoEmailServico;
+import br.com.agendamentoemail.entidade.AgendamentoEmail;
+import br.com.agendamentoemail.servico.AgendamentoEmailServico;
 
 @Path("emails")
 public class AgendamentoEmailController {

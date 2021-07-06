@@ -1,4 +1,4 @@
-package br.com.alura.servico;
+package br.com.agendamentoemail.servico;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -6,8 +6,8 @@ import java.util.logging.Logger;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.alura.DAO.AgendamentoEmailDAO;
-import br.com.alura.entidade.AgendamentoEmail;
+import br.com.agendamentoemail.DAO.AgendamentoEmailDAO;
+import br.com.agendamentoemail.entidade.AgendamentoEmail;
 
 @Stateless
 public class AgendamentoEmailServico {

@@ -1,4 +1,4 @@
-package br.com.alura.servlet;
+package br.com.agendamentoemail.servlet;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.alura.servico.AgendamentoEmailServico;
+import br.com.agendamentoemail.servico.AgendamentoEmailServico;
 
 //@WebServlet("emails")
 public class AgendamentoEmailServlet extends HttpServlet {

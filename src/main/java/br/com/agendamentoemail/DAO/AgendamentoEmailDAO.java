@@ -1,4 +1,4 @@
-package br.com.alura.DAO;
+package br.com.agendamentoemail.DAO;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.alura.entidade.AgendamentoEmail;
+import br.com.agendamentoemail.entidade.AgendamentoEmail;
 
 @Stateless
 public class AgendamentoEmailDAO {

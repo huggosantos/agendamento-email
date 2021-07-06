@@ -1,4 +1,4 @@
-package br.com.alura.entidade;
+package br.com.agendamentoemail.entidade;
 
 import java.util.Objects;
 

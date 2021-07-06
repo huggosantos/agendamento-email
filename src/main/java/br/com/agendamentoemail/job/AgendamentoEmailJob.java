@@ -1,4 +1,4 @@
-package br.com.alura.job;
+package br.com.agendamentoemail.job;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import javax.ejb.Schedule;
 import javax.ejb.Singleton;
 import javax.inject.Inject;
 
-import br.com.alura.entidade.AgendamentoEmail;
-import br.com.alura.servico.AgendamentoEmailServico;
+import br.com.agendamentoemail.entidade.AgendamentoEmail;
+import br.com.agendamentoemail.servico.AgendamentoEmailServico;
 
 @Singleton
 public class AgendamentoEmailJob {	
